@@ -2,7 +2,7 @@ import openai
 import speech_recognition as sr
 import pyttsx3
 
-openai.api_key = "YOUR-API-KEY"
+openai.api_key = 'YOUR-API-KEY'
 
 def get_api_response(prompt: str) -> str:
     response = openai.Completion.create(
